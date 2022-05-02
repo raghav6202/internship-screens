@@ -1,0 +1,72 @@
+@import url("./../screen1/screen1.css");
+
+.teacher-bar {
+  display: flex;
+  flex-flow: row;
+  width: 100%;
+  justify-content: flex-start;
+  gap: 4rem;
+  padding: 00.5rem;
+}
+
+.teacher-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin: 0.5rem;
+  margin-left: 4rem;
+}
+
+.teacher-tag {
+  height: 16px;
+  width: 16px;
+  border-radius: 0px;
+}
+
+.teacher-text {
+  width: 75px;
+  height: 20px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+
+  color: #fe0d0d;
+}
+
+.access-tab {
+  display: flex;
+  width: 80%;
+  justify-content: start;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.plus-btn {
+  height: 16px;
+  width: 16px;
+  border-radius: 0px;
+}
+
+.noaccess {
+  background: #f2f2f2;
+  /* Gray 4 */
+
+  border: 1px solid #bdbdbd;
+  box-sizing: border-box;
+  border-radius: 20px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+
+  /* Gray 4 */
+
+  color: #bdbdbd;
+}
